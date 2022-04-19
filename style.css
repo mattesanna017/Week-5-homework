@@ -2,6 +2,21 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    
   }
   
-  
+  textarea {
+    background: transparent;
+    border: solid;
+    resize: none;
+    color: salmon;
+    padding: 10px;
+  }
+
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: darkgreen;
+    border-radius: 10px;
+    border-bottom: 10px dashed darkgreen;
+  }
